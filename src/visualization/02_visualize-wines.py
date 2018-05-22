@@ -3,7 +3,7 @@
 Module contaning the functions to visualize the 
 wines distribution using a subset data
 """
-
+import os
 import sys
 import datetime
 

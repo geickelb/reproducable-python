@@ -9,6 +9,7 @@ column for price in GBP
 """
 
 import sys
+import os
 import datetime
 
 import pandas as pd
@@ -50,7 +51,7 @@ def process_data_GBP(filename):
     return(fname)
 
 
-if __name__ == '__main__':
-    filename = sys.argv[1]
-    print(filename)
-    print(process_data_GBP(filename))
+# if __name__ == '__main__':
+#     filename = sys.argv[1]
+#     print(filename)
+#     print(process_data_GBP(filename))
